@@ -1,0 +1,28 @@
+{
+  "name": "fullstack-with-webpack-and-node",
+  "version": "1.0.0",
+  "description": "Node, Express, React",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run init && node server/server.js",
+    "init": "cd client/ && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wiasliaw77210/fullstack-with-webpack-and-node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wiasliaw77210/fullstack-with-webpack-and-node/issues"
+  },
+  "homepage": "https://github.com/wiasliaw77210/fullstack-with-webpack-and-node#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1"
+  }
+}
