@@ -6,7 +6,13 @@
 * use ejs instead of router of "/\*"
 
 # Usage
-at root folder
 ```
+# at root folder
+npm install
+
+# at client/
+npm install
+
+# at root folder
 npm run start
 ```
